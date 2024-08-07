@@ -1,0 +1,13 @@
+/**:
+  ros__parameters:
+    #距离单位均为米
+    wheel_radius: 0.2275 # 轮胎半径，主要用于计算航向角.
+    wheel_width: 0.1 # 轮胎宽度, 主要用于计算航向角.
+    wheel_base: 0.9 # 轴距，前轴中心和后轴中心的距离.
+    wheel_tread: 0.69 # 轮距，左轮中心和右轮中心的距离
+    front_overhang: 0.381 # 前轮中心和车辆前端的距离
+    rear_overhang: 0.381 # 后轮中心和车辆后端的距离
+    left_overhang: 0.075 # 左轮中心和车辆左端的距离
+    right_overhang: 0.075 # 右轮中心和车辆右端的距离
+    vehicle_height: 1.337 #车辆高度
+    max_steer_angle: 0.47124 # [rad]  #最大车辆转向角
